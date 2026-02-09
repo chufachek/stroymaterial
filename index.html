@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>СтройМатериалы | Поставка строительных материалов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">Строй<span>Материалы</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#catalog">Каталог</a></li>
+                    <li><a href="#benefits">Преимущества</a></li>
+                    <li><a href="#order">Как заказать</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Герой -->
+    <section class="hero">
+        <div class="container">
+            <h1>Строительные материалы для объектов любого масштаба</h1>
+            <p>Поставки напрямую со склада. Работаем с частными лицами, бригадами и строительными компаниями.</p>
+            <a href="#form" class="btn">Оставить заявку</a>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section id="about">
+        <div class="container">
+            <h2>О нашей компании</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Мы — поставщик строительных материалов с собственным складом. Мы знаем, что для вашего проекта важны не только цена, но и качество, сроки и надежность партнера.</p>
+                    <p>Наша задача — обеспечить вас всем необходимым, чтобы работы на объекте шли без простоев. Мы работаем с проверенными производителями, поэтому можем отвечать за качество каждой партии.</p>
+                    <p>Для нас важен каждый клиент: хотите вы построить дом, сделать ремонт или возвести многоэтажку.</p>
+                </div>
+                <div class="about-img">
+                    <!-- Фото склада или команды -->
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Наш склад строительных материалов">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Каталог -->
+    <section id="catalog" style="background-color: #f1f8ff;">
+        <div class="container">
+            <h2>Каталог строительных материалов</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px;">Выбирайте из основных категорий. Полный ассортимент уточняйте у менеджера.</p>
+            
+            <div class="catalog-grid">
+                <!-- Категория 1 -->
+                <div class="catalog-item">
+                    <img src="https://images.unsplash.com/photo-1621550172605-83c5b335d833?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Сухие строительные смеси" class="catalog-img">
+                    <div class="catalog-content">
+                        <h3>Сухие строительные смеси</h3>
+                        <p>Штукатурки, стяжки, клеи, шпатлевки от ведущих брендов.</p>
+                        <button class="btn btn-catalog">Узнать подробнее</button>
+                    </div>
+                </div>
+                <!-- Категория 2 -->
+                <div class="catalog-item">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Кирпич, блоки, газобетон" class="catalog-img">
+                    <div class="catalog-content">
+                        <h3>Кирпич, блоки, газобетон</h3>
+                        <p>Керамический и силикатный кирпич, газо- и пеноблоки, плиты перекрытий.</p>
+                        <button class="btn btn-catalog">Узнать подробнее</button>
+                    </div>
+                </div>
+                <!-- Категория 3 -->
+                <div class="catalog-item">
+                    <img src="https://images.unsplash.com/photo-1586023492120-9ae82690e4c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Пиломатериалы" class="catalog-img">
+                    <div class="catalog-content">
+                        <h3>Пиломатериалы</h3>
+                        <p>Обрезная и строганная доска, брус, вагонка, имитация бруса, OSB.</p>
+                        <button class="btn btn-catalog">Узнать подробнее</button>
+                    </div>
+                </div>
+                <!-- Категория 4 -->
+                <div class="catalog-item">
+                    <img src="https://images.unsplash.com/photo-1564569929954-04c495e56634?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Кровельные материалы" class="catalog-img">
+                    <div class="catalog-content">
+                        <h3>Кровельные материалы</h3>
+                        <p>Металлочерепица, профнастил, гибкая черепица, комплектующие для кровли.</p>
+                        <button class="btn btn-catalog">Узнать подробнее</button>
+                    </div>
+                </div>
+                <!-- Категория 5 -->
+                <div class="catalog-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Утеплители" class="catalog-img">
+                    <div class="catalog-content">
+                        <h3>Утеплители</h3>
+                        <p>Минеральная вата, пенопласт, экструдированный пенополистирол, изолон.</p>
+                        <button class="btn btn-catalog">Узнать подробнее</button>
+                    </div>
+                </div>
+                <!-- Категория 6 -->
+                <div class="catalog-item">
+                    <img src="https://images.unsplash.com/photo-1613068685117-2e2a9c6b2a4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Отделочные материалы" class="catalog-img">
+                    <div class="catalog-content">
+                        <h3>Отделочные материалы</h3>
+                        <p>Гипсокартон, стеновые панели, декоративная штукатурка, материалы для фасада.</p>
+                        <button class="btn btn-catalog">Узнать подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="benefits">
+        <div class="container">
+            <h2>Почему с нами работают постоянно</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Широкий ассортимент</h3>
+                    <p>Основные материалы для стройки и ремонта в одном месте. Сокращаем ваше время на поиск и логистику.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <h3>Прямые поставки</h3>
+                    <p>Работаем напрямую с производителями. Это гарантия стабильных цен и отсутствия пересортицы.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Предсказуемые сроки</h3>
+                    <p>Мы ценим ваше время. Четко согласуем дату и время отгрузки или доставки.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Работаем со всеми</h3>
+                    <p>Принимаем заказы от частных лиц, строительных бригад и компаний. Гибкие условия сотрудничества.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Консультации специалистов</h3>
+                    <p>Поможем подобрать материал под вашу задачу и бюджет. Не дадим ошибиться с выбором.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Проверенное качество</h3>
+                    <p>Мы сами отбираем продукцию на склад и уверены в том, что продаем.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как заказать -->
+    <section id="order">
+        <div class="container">
+            <h2>Как сделать заказ</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 50px;">Всего три простых шага от заявки до получения материалов.</p>
+            
+            <div class="steps">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <h3>Заявка или звонок</h3>
+                    <p>Оставьте заявку на сайте или позвоните нам. Менеджер уточнит детали и сформирует коммерческое предложение.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <h3>Согласование</h3>
+                    <p>Мы подтверждаем наличие, сроки и окончательную сумму. Обсуждаем условия доставки или самовывоза.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <h3>Получение</h3>
+                    <p>Забираете материалы с нашего склада в удобное время, или мы привозим их на ваш объект в оговоренный день.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма -->
+    <section id="form" class="form-section">
+        <div class="container">
+            <h2>Запросите прайс-лист или расчет вашего заказа</h2>
+            <p style="margin-bottom: 50px;">Оставьте контакты, и наш менеджер свяжется с вами в течение часа в рабочее время.</p>
+            
+            <div class="form-container">
+                <div class="form-text">
+                    <h3>Мы подготовим для вас:</h3>
+                    <ul style="padding-left: 20px; margin-bottom: 20px;">
+                        <li style="margin-bottom: 10px;">Актуальный прайс-лист с ценами</li>
+                        <li style="margin-bottom: 10px;">Смету под ваш проект</li>
+                        <li style="margin-bottom: 10px;">Консультацию по выбору материалов</li>
+                        <li>Варианты доставки и оплаты</li>
+                    </ul>
+                    <p class="contact-promo">Не хотите заполнять форму?<br>Просто позвоните нам: <strong>+7 (XXX) XXX-XX-XX</strong></p>
+                </div>
+                
+                <form class="form" id="requestForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Номер телефона *</label>
+                        <input type="tel" id="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Комментарий к заявке</label>
+                        <textarea id="comment" class="form-control" placeholder="Например: интересует кровля и утеплитель для дома 120м² или нужна коммерческая смета для ТЦ..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary" style="width: 100%;">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contacts">
+        <div class="container">
+            <h2>Наши контакты</h2>
+            <div class="contacts-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Телефон</h3>
+                    <p>+7 (XXX) XXX-XX-XX</p>
+                    <p>Единый номер для всех клиентов</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>info@stroymaterialy.ru</p>
+                    <p>Для общих вопросов</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Адрес склада</h3>
+                    <p>г. Москва, ул. Строителей, д. 45</p>
+                    <p>Самовывоз: Пн-Сб 8:00-20:00</p>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Время работы</h3>
+                    <p>Пн-Пт: 8:00-18:00</p>
+                    <p>Сб: 9:00-15:00</p>
+                    <p>Вс: выходной</p>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <!-- Здесь должна быть карта Яндекса/Google -->
+                <div class="map-placeholder">
+                    <div>
+                        <i class="fas fa-map-marked-alt" style="font-size: 3rem; margin-bottom: 15px; display: block;"></i>
+                        <p>Здесь будет карта с указанием нашего местоположения</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">Строй<span>Материалы</span></div>
+                    <p>Поставщик строительных материалов с собственным складом. Надежность, качество и сроки.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Разделы сайта</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#catalog">Каталог</a></li>
+                        <li><a href="#benefits">Преимущества</a></li>
+                        <li><a href="#order">Как заказать</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Категории</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Сухие смеси</a></li>
+                        <li><a href="#">Кирпич и блоки</a></li>
+                        <li><a href="#">Пиломатериалы</a></li>
+                        <li><a href="#">Кровля</a></li>
+                        <li><a href="#">Утеплители</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Свяжитесь с нами</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> +7 (XXX) XXX-XX-XX</li>
+                        <li><i class="fas fa-envelope"></i> info@stroymaterialy.ru</li>
+                        <li><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Строителей, д. 45</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 СтройМатериалы. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
